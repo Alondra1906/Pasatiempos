@@ -43,6 +43,16 @@ section {
     height: auto;
 }
 
+.salir {
+    font-size: 30px;
+    height: 50px;
+}
+
+.salidas1 {
+    width: 200px;
+    height: auto;
+}
+
 .fondo {
     background-color:khaki;
     color:black; 
