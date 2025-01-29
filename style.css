@@ -1,0 +1,50 @@
+header {
+    text-align: center;
+    background-color:lightsalmon;
+}
+
+section {
+    font-size: 30px;
+}
+.titulo {
+    color:black;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.musica {
+    font-size: 30px;
+    height: 50px;
+}
+
+.musica1 {
+    width: 200px;
+    height: auto;
+}
+
+.videojuegos {
+    font-size: 30px;
+    height: 50px; 
+}
+
+.videojuegos1 {
+    width: 200px;
+    height: auto;
+}
+
+.peliculas {
+    font-size: 30px;
+    height: 50px;
+}
+
+.peliculas1 {
+    width: 200px;
+    height: auto;
+}
+
+.fondo {
+    background-color:khaki;
+    color:black; 
+    padding: 20px; 
+}
