@@ -1,3 +1,4 @@
+/* Pagina principal */
 header {
     text-align: center;
     background-color:lightsalmon;
@@ -6,6 +7,12 @@ header {
 section {
     font-size: 30px;
 }
+
+div {
+    display: block;
+    font-size: 30px;
+}
+
 .titulo {
     color:black;
     font-size: 50px;
@@ -14,8 +21,8 @@ section {
 }
 
 .musica {
-    font-size: 30px;
-    height: 50px;
+    margin-top: 10px;
+    font-weight: bold;
 }
 
 .musica1 {
@@ -24,8 +31,8 @@ section {
 }
 
 .videojuegos {
-    font-size: 30px;
-    height: 50px; 
+    margin-top: 10px;
+    font-weight: bold;
 }
 
 .videojuegos1 {
@@ -34,8 +41,8 @@ section {
 }
 
 .peliculas {
-    font-size: 30px;
-    height: 50px;
+    margin-top: 10px;
+    font-weight: bold;
 }
 
 .peliculas1 {
@@ -44,11 +51,21 @@ section {
 }
 
 .salir {
-    font-size: 30px;
-    height: 50px;
+    margin-top: 10px;
+    font-weight: bold;
 }
 
 .salidas1 {
+    width: 200px;
+    height: auto;
+}
+
+.series {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.series1 {
     width: 200px;
     height: auto;
 }
@@ -57,4 +74,107 @@ section {
     background-color:khaki;
     color:black; 
     padding: 20px; 
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center; 
+}
+
+
+/* Pagina musica */
+.header1 {
+    text-align: center;
+    background-color:rgb(156, 117, 160);
+}
+
+.fondomusica {
+    background-color:rgb(217, 125, 245);
+    color:black; 
+    padding: 20px; 
+}
+
+.contenedor1 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center; 
+}
+
+/* Pagina videojuegos */
+.header2 {
+    text-align: center;
+    background-color:rgba(22, 167, 30, 0.671);
+}
+
+.fondovideojuegos {
+    background-color:rgba(139, 172, 22, 0.61);
+    color:black; 
+    padding: 20px; 
+}
+
+.contenedor2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center; 
+}
+
+/* Pagina peliculas */
+.header3 {
+    text-align: center;
+    background-color:rgba(247, 165, 58, 0.671);
+}
+
+.fondopeliculas {
+    background-color:rgba(236, 223, 36, 0.61);
+    color:black; 
+    padding: 20px; 
+}
+
+.contenedor3 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center; 
+}
+
+/* Pagina salidas */
+.header4 {
+    text-align: center;
+    background-color:rgba(77, 58, 247, 0.671);
+}
+
+.fondosalidas {
+    background-color:rgba(112, 103, 233, 0.61);
+    color:black; 
+    padding: 20px; 
+}
+
+.contenedor4 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center; 
+}
+
+/* Pagina series */
+.header5 {
+    text-align: center;
+    background-color:rgba(77, 58, 247, 0.671);
+}
+
+.fondoseries {
+    background-color:rgba(112, 103, 233, 0.61);
+    color:black; 
+    padding: 20px; 
+}
+
+.contenedor5 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center; 
 }
